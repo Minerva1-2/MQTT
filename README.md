@@ -1,6 +1,6 @@
 项目名称：基于MQTT的智能家居
 开发环境：CubeMX+VsCode（插件：cotex-debug、EIDE）开发
-硬件：STMF03C8T6、ESP8266、STLink、串口模块
+硬件：STM32F103C8T6、ESP8266、STLink、串口模块
 接线：串口一接串口模块，串口三接ESP8266
 🙀🙀🙀注意： 1、本代码使用FreeRTOS实现，MQTT框架为杰杰编写，底层指令传输为本人实现。
               2、编译使用ARM5工具链进行编译，若编译出错，请首先检查自己的编译工具链。
